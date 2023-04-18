@@ -1,0 +1,123 @@
+ *{
+    color:  black;
+    font-style: oblique;
+    font-family:monospace;
+   
+} 
+
+
+/* body{
+    
+  
+      background-image: url(../img/2.jpeg); 
+      background-color: #fe9801; 
+    
+   
+    
+
+} */
+
+
+
+
+/* .background{
+    color:  rgb(8, 124, 186);
+} */
+
+body{
+    background-image: linear-gradient(to right top, #051937, #004e72, #008890, #39c28a, #ccf278);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.welcome{
+    color:black;
+   
+    font-size: xx-large;
+  
+}
+
+.input_area {
+   
+    height: 80px;
+    width: 300px;
+   
+}
+
+ .margin{
+    margin-left: 180px;
+} 
+
+#btn{
+   
+    width: 30%;
+    height: 50px;
+    border: none;
+    color:black;
+    /* background: #1FA2FF;  
+background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  
+background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  */
+    background:#051937;
+    
+    border-radius: 7px;
+    box-shadow: black 5px 8px 5px;
+    color: #fff;
+}
+
+#stop{
+    
+    width: 30%;
+    height: 50px;
+    border: none;
+    color: #fff;
+}
+
+#Result{
+    display: none;
+}
+
+.wrapper p{
+    display: none;
+}
+
+
+#massage{
+    color:#fff;
+   
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#msg{
+    border-radius: 10px;
+    box-shadow: black 5px 8px 5px;
+}
+
+.color{
+    background-color:#CCF278;
+  height: 110px;
+  width: 130px;
+  padding: 12px;
+  border-radius: 20%;
+  box-shadow: black 5px 8px 5px;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width:340px){
+    .color{
+        height: 80px;
+        width: 90px;
+        font-size: 1.5rem;
+    }
+}
+
+
